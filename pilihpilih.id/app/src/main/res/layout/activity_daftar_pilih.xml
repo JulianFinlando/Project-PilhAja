@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="#F70000"
+    tools:context=".DaftarPilihActivity">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pencarian"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardBackgroundColor="#fff">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/search"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cari Smartphone"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view1"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        card_view:cardBackgroundColor="#fff"
+        android:layout_marginTop="70dp"
+        card_view:cardCornerRadius="4dp">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/camera"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fotografi"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:layout_marginLeft="15dp"
+            android:textSize="27sp"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:layout_height="70dp"
+        card_view:cardBackgroundColor="#fff"
+        android:layout_marginTop="10dp"
+        card_view:cardCornerRadius="4dp">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/gamepad"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gaming"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:layout_marginLeft="15dp"
+            android:textSize="27sp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view3"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        card_view:cardBackgroundColor="#fff"
+        android:layout_marginTop="10dp"
+        card_view:cardCornerRadius="4dp">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/feature"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editing"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:layout_marginLeft="15dp"
+            android:textSize="27sp"/>
+    </android.support.v7.widget.CardView>
+    </LinearLayout>

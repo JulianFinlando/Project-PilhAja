@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.marceljulian.pilihpilihid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PilihAja"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".DaftarPilihActivity"
+            android:label="Pilih Aja">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".ShowPilihanActivity" />
+        <activity android:name=".DetailSmartphoneActivity" />
+        <activity
+            android:name=".FotografiActivity"
+            android:label="Fotografi"
+            android:parentActivityName=".DaftarPilihActivity" />
+        <activity
+            android:name=".SearchSmartphone"
+            android:label="Cari Smartphone"
+            android:parentActivityName=".DaftarPilihActivity" />
+        <activity android:name=".GamingActivity"
+            android:label="Gaming"
+            android:parentActivityName=".DaftarPilihActivity"/>
+        <activity android:name=".EditingActivity"
+            android:label="Editing"
+            android:parentActivityName=".DaftarPilihActivity"></activity>
+    </application>
+
+</manifest>

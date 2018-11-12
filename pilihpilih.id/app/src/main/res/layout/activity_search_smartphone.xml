@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBDFDF"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    tools:context=".SearchSmartphone">
+
+    <TextView
+        android:id="@+id/heading_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="Cari Smartphone"
+        android:visibility="invisible"
+        android:textColor="#555555"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/search_smartphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/heading_label"
+        android:layout_below="@+id/heading_label"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-25dp"
+        android:layout_toStartOf="@+id/btn_cariSmartphone"
+        android:background="@drawable/search_layout"
+        android:ems="10"
+        android:hint="Search here"
+        android:inputType="textPersonName"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/btn_cariSmartphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/search_smartphone"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/search_smartphone"
+        android:background="@android:color/background_light"
+        app:srcCompat="@mipmap/pencarian2" />
+
+    <ListView
+        android:layout_marginTop="15dp"
+        android:id="@+id/listViewPencarian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnWidth="150dp"
+        android:gravity="center"
+        android:layout_below="@id/btn_cariSmartphone"
+        android:clickable="true"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        >
+    </ListView>
+
+</RelativeLayout>

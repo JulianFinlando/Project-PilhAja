@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailSmartphoneActivity">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merk"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvMerkHpdet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvTypeHpdet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Network"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvNetworkHpdet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sim"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvSimHpdet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Size"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvTypeLayardet"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resolution"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvResolutionHpdet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card Slot"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvCardSlotHpdet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ram"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvTypeRamdet"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Internal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvinternal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chipset"
+        android:layout_marginTop="10dp"
+        android:id="@+id/chipset"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPU"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvgpu"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Os"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvTypeOsdet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cpu"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvTypeCpudet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kamera Depan"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvkameraDpn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kamera Belakang"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvTypeKameradet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fitur Kamera"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvFiturKameraHpdet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvVideoHpdet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WLAN"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvWlanHpdet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvSensorHpdet"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baterai"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txvTypeBateraidet"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/gambarHpdet"/>
+
+</LinearLayout>
+</ScrollView>

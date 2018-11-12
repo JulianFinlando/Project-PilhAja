@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pilih Aja</string>
+    <string name="make_an_order">Make an order</string>
+    <string name="dialog_title">Items available in a shop</string>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Dismiss</string>
+    <string name="clear_all_label">Clear all</string>
+
+    <string-array name="smartphone">
+        <item>samsung</item>
+        <item>apple</item>
+        <item>nokia</item>
+        <item>sony</item>
+        <item>lg</item>
+        <item>htc</item>
+        <item>motorola</item>
+        <item>huawei</item>
+        <item>lenovo</item>
+        <item>xiaomi</item>
+        <item>asus</item>
+        <item>oppo</item>
+        <item>vivo</item>
+    </string-array>
+</resources>
